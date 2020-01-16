@@ -1,0 +1,18 @@
+.gif-modal {
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 8%;
+}
+
+.gif-modal > img{
+	width: 100vh;
+    height: 300px;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.gif-modal > img{
+		width: 100%;
+		height: 200px;
+	}
+  }
+  
